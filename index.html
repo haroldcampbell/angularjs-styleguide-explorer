@@ -33,10 +33,10 @@
 	</script>
 
 	<script type="text/ng-template" id="partials/details.html">
-		<div show-section-preview preview-section-model="previewSection" ng-show="getPreviewSection()"></div>
+		<div show-section-preview preview-section-model="previewSection" ng-show="getDetailPreviewSection()"></div>
 
-		<div class="detail" ng-hide="getPreviewSection()">
-			<h2>{{section.title}}</h2>
+		<div class="detail" ng-hide="getDetailPreviewSection()">
+			@@ <h2>{{section.title}}</h2>
 
 			<div class="detail-notes" ng-show="section.notes">{{section.notes}}</div>
 			<section class="detail-section" ng-repeat="toc_h3 in section.toc_h3">
@@ -71,6 +71,7 @@
 
 	</script>
 </head>
+
 <body>
 <div class="app">
 	<div class="attrib"> Based entirely on John Papa's <a href="">AngularJS Style Guide</a>.</div>
@@ -83,9 +84,10 @@
 
 	<div class="app-content">
 		<section class="main-nav" ng-controller="SectionsController as secs">
+			<!--<ul>-->
 			<ul ng-mouseleave="clearPreviewSection()">
 				<li ng-repeat="section in secs.sections" ng-mouseenter="setPreviewSection(section)">
-					<a href="#/details/{{section.url}}" >{{section.title}}</a>
+					<a href="#/details/{{section.url}}">{{section.title}}</a>
 				</li>
 			</ul>
 		</section>

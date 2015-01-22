@@ -16,6 +16,7 @@
         vm.activate();
 
         $scope.setPreviewSection = function (section) {
+            console.log('setPreviewSection');
             sectionsService.setPreviewSection(section);
         };
 

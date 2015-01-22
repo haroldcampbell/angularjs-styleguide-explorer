@@ -8,14 +8,8 @@
 
     function HomeController($scope, sectionsService) {
 
+        /* meta-code that defines $scope.previewSection, and $scope.getPreviewSection() */
         sectionsService.extendScopeForPreview($scope);
 
-//        $scope.previewSection = null;
-//
-//        $scope.getPreviewSection = function() {
-//            $scope.previewSection = sectionsService.getPreviewSection();
-//
-//            return $scope.previewSection;
-//        }
     }
 })();
