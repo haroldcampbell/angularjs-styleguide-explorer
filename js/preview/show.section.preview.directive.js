@@ -13,7 +13,6 @@
             },
             replace: true,
             template: '   <div class="preview">' +
-                '[]'
                 + '     <h2>{{previewSectionModel.title}}</h2>'
                 + '     <p>Click on the link for details.</p>'
                 + '     <section class="preview-section" ng-repeat="toc_h3 in previewSectionModel.toc_h3">'

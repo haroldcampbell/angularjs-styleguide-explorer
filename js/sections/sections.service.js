@@ -41,7 +41,7 @@
          */
         function getSections() {
 
-            return $http.get('../style-guide/output.json')
+            return $http.get('style-guide/output.json')
                 .then(function (response) {
                     if (!!_this.sections) {
                         return _this.sections;
