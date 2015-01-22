@@ -38,6 +38,12 @@ header div {
     font-weight: 100;
     text-align: right;
 }
+header .version {
+    font-size: 0.5em;
+    float:right;
+    font-weight: 200;
+    letter-spacing: 2.0px;
+}
 .attrib {
     margin-bottom: 20px;
     font-weight: 200;
