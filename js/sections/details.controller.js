@@ -34,7 +34,7 @@
                 .then(function (section) {
                     $scope.section = section;
                 }).catch(function (error) {
-                    $log.debug('DetailsController XHR failed for style-guide data.' + error.data)
+                    $log.debug('DetailsController XHR failed for style-guide data.' + error.data);
                 });
         }
     }

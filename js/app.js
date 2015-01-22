@@ -1,13 +1,15 @@
+(function(){
 'use strict';
 
 /* App Module */
 
-var app = angular.module('app', [
+angular.module('app', [
     'ngRoute',
     'SectionsService'
 ]);
 
-app.config(['$routeProvider',
+angular.module('app')
+    .config(['$routeProvider',
     function($routeProvider) {
         $routeProvider.
             when('/', {
@@ -22,3 +24,5 @@ app.config(['$routeProvider',
                 redirectTo: '/'
             });
     }]);
+
+})();

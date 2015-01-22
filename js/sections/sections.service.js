@@ -5,7 +5,7 @@
         .module('SectionsService', [])
         .factory('SectionsService', SectionsService);
 
-    SectionsService.$inject = ['$http', '$q', '$log']
+    SectionsService.$inject = ['$http', '$q', '$log'];
 
     function SectionsService($http, $q, $log) {
         var _this = this;
@@ -33,7 +33,7 @@
                 controller_scope.previewSection = getPreviewSection();
 
                 return controller_scope.previewSection;
-            }
+            };
         }
         /**
          * Returns an array containing a title/url hash.
@@ -51,14 +51,14 @@
                     _this.sections = response.data;
 
                     for (var index = 0; index < _this.sections.length; index++) {
-                        var content = response.data[index]
+                        var content = response.data[index];
                         _this.keySections[content.url] = content;
                     }
 
-                    return _this.sections
+                    return _this.sections;
                 })
                 .catch(function (error) {
-                    $log.debug('XHR failed for style-guide data.' + error.data)
+                    $log.debug('XHR failed for style-guide data.' + error.data);
                 });
         }
 

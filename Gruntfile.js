@@ -25,7 +25,7 @@ module.exports = function(grunt) {
 //            files: ['test/**/*.html']
 //        },
         jshint: {
-            files: ['Gruntfile.js', 'src/**/*.js', 'test/**/*.js', '!test/jasmine-jquery.js'],
+            files: ['Gruntfile.js', 'js/**/*.js', 'test/**/*.js', '!test/jasmine-jquery.js'],
             options: {
                 // options here to override JSHint defaults
                 globals: {
@@ -45,7 +45,7 @@ module.exports = function(grunt) {
 
 //    grunt.loadNpmTasks('grunt-contrib-uglify');
     grunt.loadNpmTasks('grunt-contrib-jshint');
-//    grunt.loadNpmTasks('grunt-contrib-watch');
+    grunt.loadNpmTasks('grunt-contrib-watch');
 //    grunt.loadNpmTasks('grunt-contrib-concat');
 
     grunt.registerTask('test', ['jshint']);

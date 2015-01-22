@@ -6,6 +6,6 @@
             return {
                 controller: function ($scope) {
                 }
-            }
+            };
         });
 })();
