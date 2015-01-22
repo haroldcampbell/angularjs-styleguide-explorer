@@ -1,4 +1,5 @@
 (function() {
+    'use strict';
 
     angular.module('app')
         .controller('HomeController', HomeController);
@@ -7,7 +8,7 @@
 
     function HomeController($scope, sectionsService) {
 
-        sectionsService.extendScope($scope);
+        sectionsService.extendScopeForPreview($scope);
 
 //        $scope.previewSection = null;
 //

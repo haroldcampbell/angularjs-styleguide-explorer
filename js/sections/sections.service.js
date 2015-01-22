@@ -1,4 +1,5 @@
 (function () {
+    'use strict';
 
     angular
         .module('SectionsService', [])
@@ -19,7 +20,7 @@
             getPreviewSection: getPreviewSection,
             setPreviewSection: setPreviewSection,
 
-            extendScope: extendScope
+            extendScopeForPreview: extendScopeForPreview
         };
 
         /**
@@ -27,7 +28,7 @@
          * when the user has changed the preview section
          * @param controller_scope
          */
-        function extendScope(controller_scope) {
+        function extendScopeForPreview(controller_scope) {
             controller_scope.getPreviewSection = function() {
                 controller_scope.previewSection = getPreviewSection();
 

@@ -1,4 +1,5 @@
 (function() {
+    'use strict';
 
     angular.module('app')
     .controller('SectionsController', SectionsController);
@@ -15,12 +16,10 @@
         vm.activate();
 
         $scope.setPreviewSection = function (section) {
-            console.log("secs: setPreviewSection")
             sectionsService.setPreviewSection(section);
         };
 
         $scope.clearPreviewSection = function() {
-            console.log("secs: clearPreviewSection")
             sectionsService.setPreviewSection(null);
         };
 

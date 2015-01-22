@@ -18,30 +18,11 @@
 	<script src="js/sections/details.controller.js"></script>
 	<script src="js/sections/sections.controller.js"></script>
 	<script src="js/sections/sections.service.js"></script>
-	<script src="js/preview/preview.directive.js"></script>
+	<script src="js/preview/preview.section.model.directive.js"></script>
+	<script src="js/preview/show.section.preview.directive.js"></script>
 
 	<script type="text/ng-template" id="partials/home.html">
-
-		<!--<div preview-sections-directive ngModel="previewSection" ng-show="getPreviewSection()"></div>-->
-		<div class="preview" ng-show="getPreviewSection()">
-			<h2>{{previewSection.title}}</h2>
-			<p>Click on the link for details.</p>
-			<section class="preview-section" ng-repeat="toc_h3 in previewSection.toc_h3">
-				<!--<div preview-directive toc-h3-model="toc_h3" />'-->
-				<div class=" title">{{toc_h3.title}}</div>
-				<ul>
-					<li ng-repeat="toc_h5 in toc_h3.toc_h5">
-						<div class="style_name">Style: {{toc_h5.style_name}}</div>
-						<ul>
-							<li ng-repeat="rule in toc_h5.section.rules">
-								<div class="note">{{rule}}</div>
-							</li>
-						</ul>
-					</li>
-				</ul>
-			</section>
-		</div>
-
+		<div show-section-preview preview-section-model="previewSection" ng-show="getPreviewSection()"></div>
 		<div class="instructions" ng-hide="getPreviewSection()">
 			<h2>Hello!</h2>
 
@@ -49,11 +30,10 @@
 			Click on
 			any section to drill-down to that section.
 		</div>
-
 	</script>
 
 	<script type="text/ng-template" id="partials/details.html">
-		<!--<div preview-sections-directive preview-section-model="previewSection" ng-show="getPreviewSection()"></div>-->
+		<div show-section-preview preview-section-model="previewSection" ng-show="getPreviewSection()"></div>
 
 		<div class="detail" ng-hide="getPreviewSection()">
 			<h2>{{section.title}}</h2>
@@ -104,7 +84,7 @@
 	<div class="app-content">
 		<section class="main-nav" ng-controller="SectionsController as secs">
 			<ul ng-mouseleave="clearPreviewSection()">
-				<li ng-repeat="section in secs.sections"  ng-mouseenter="setPreviewSection(section)">
+				<li ng-repeat="section in secs.sections" ng-mouseenter="setPreviewSection(section)">
 					<a href="#/details/{{section.url}}" >{{section.title}}</a>
 				</li>
 			</ul>
