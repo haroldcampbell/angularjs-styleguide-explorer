@@ -1,0 +1,175 @@
+body {
+    background-color: #f0f0f0;
+    color: #404040;
+    padding: 20px;
+}
+
+.app-content {
+    position: relative;
+}
+
+header,
+section.main-nav,
+section.main .content
+{
+    border-radius: 5px;
+    border: solid 1px #ddd;
+}
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    background-color: #fff;
+    padding: 20px;
+    margin: 0 0 20px 0;
+}
+
+header p {
+    font-size: 2em;
+}
+
+header div {
+    color: #777;
+    font-size: 1.5em;
+    font-weight: 100;
+    text-align: right;
+}
+.attrib {
+    margin-bottom: 20px;
+    font-weight: 200;
+    text-align: right;
+    float:right;
+    background-color: #505355;
+    color:#f0f0f0;
+    padding: 0 10px;
+    margin: -10px 20px 0 0;
+    border-radius: 2px;
+}
+
+.attrib a {
+    color:#83ccf8;
+}
+section.main-nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    display: inline-block;
+    width:200px;
+    padding: 10px 10px;
+}
+
+section.main-nav li{
+    z-index: 2;
+    background-color: #fff;
+}
+section.main-nav li a {
+    display: block;
+    padding: 2.5px 10px;
+    border-radius: 2px;
+}
+section.main-nav li a:hover {
+    background-color: #f0f0f0;
+}
+
+section.main {
+    display: inline-block;
+    width:100%;
+    padding-left:220px;
+
+}
+
+section.main .content {
+    background-color: #fff;
+    padding: 20px;
+
+}
+
+section.main h2 {
+    margin-top: 0;
+}
+
+
+.preview-section .title,
+.detail-section .title
+{
+    font-size: 1.5em;
+}
+
+.preview-section .style_name,
+.detail-section .style_name
+{
+    font-size: 0.75;
+    font-style: italic;
+    color:#a0a0a0;
+    font-weight: 200;
+}
+
+.preview-section .note,
+.detail-section .note,
+.detail-section .why,
+{
+    font-weight: 200;
+}
+
+.title {
+    margin-top:20px;
+}
+.style_name {
+    margin: 10px 0;
+}
+
+.style_name,
+.note,
+ul.why,
+div.text
+{
+    margin-left: 20px
+}
+
+.detail .detail-notes {
+    margin:0 20px;
+    font-style: italic;
+    font-weight: 200;
+    font-size: 1.2em;
+}
+.detail-section .note span {
+    padding:2px;
+    display: inline-block;
+    height: 10px;
+    width: 10px;
+    border-radius: 5px;
+    background-color: #9e55e8;
+    border:solid 1px #8428e2;
+}
+
+.detail-section ul.why {
+    margin-top:10px;
+    margin-bottom:20px;
+}
+.detail-section ul.why li {
+    margin-bottom: 10px;
+}
+.detail-section span.why  {
+    color: #fff;
+    background-color: #9e55e8;
+    border:solid 1px #8428e2;
+    padding:2px 5px;
+    border-radius: 2px;
+    float:left;
+    font-size: 0.8em;
+    letter-spacing: 1.0px;
+    margin-top:3px;
+}
+.detail-section div.why {
+    margin-left: 45px;
+}
+
+.detail-section div.text {
+    padding: 10px;
+    background-color: #f0f0f0;
+}
