@@ -1,30 +1,34 @@
-'use strict';
+/* global describe, it, before, beforeEach, after, afterEach */
+(function () {
 
-describe('SectionsService', function() {
-   var service, httpBackend;
+    "use strict";
 
-    beforeEach(module('SectionsService'));
-    beforeEach(inject(function (SectionsService, $httpBackend, $log) {
-        service = SectionsService;
-        httpBackend = $httpBackend;
+    describe('SectionsService', function () {
+        var service, httpBackend;
 
-        jasmine.getJSONFixtures().fixturesPath = 'base/style-guide/';
+        beforeEach(module('SectionsService'));
+        beforeEach(inject(function (SectionsService, $httpBackend, $log) {
+            service = SectionsService;
+            httpBackend = $httpBackend;
 
-        $httpBackend.whenGET('../style-guide/output.json').respond(
-            getJSONFixture('output.json')
-        )
-    }));
+            jasmine.getJSONFixtures().fixturesPath = 'base/style-guide/';
 
-    it('should be defined', function() {
-        expect(service).toBeDefined();
-    });
+            $httpBackend.whenGET('../style-guide/output.json').respond(
+                getJSONFixture('output.json')
+            );
+        }));
 
-    it('should return the sections', function() {
-        service.getSections()
-        .then(function(sections){
-            expect(sections.length).toEqual(30);
+        it('should be defined', function () {
+            expect(service).toBeDefined();
         });
 
-        httpBackend.flush();
+        it('should return the sections', function () {
+            service.getSections()
+                .then(function (sections) {
+                    expect(sections.length).toEqual(30);
+                });
+
+            httpBackend.flush();
+        });
     });
-});
+})();
