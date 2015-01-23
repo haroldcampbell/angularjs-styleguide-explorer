@@ -14,7 +14,6 @@ module Parser
     end
 
     def select_processor(line)
-      # if LineProcessors::RuleLine.is_match?(line) #
       if line.match(/^  \- /)
         @current_processor = :process_rule
 
@@ -33,7 +32,6 @@ module Parser
       elsif line.match(/^#/)
         puts "lines 1: #{line}"
       end
-
     end
 
     def parse(line)
@@ -59,7 +57,6 @@ module Parser
     private
 
     def process_rule(line)
-
       if @current_section.is_new_rule?(line)
         @current_section.add_rule(line)
       else
@@ -74,13 +71,14 @@ module Parser
       end
 
       if H5.is_h5?(line)
-        @current_section = SectionText.new
-        @current_h5 = H5.new(line, @current_section)
         if(@current_h3.nil?)
           # The current h2 doesn't have a h3, so we just have to create an empty one.
           @current_h3 = H3.new(nil)
           @h2s.last.add_h3(@current_h3)
         end
+
+        @current_section = SectionText.new
+        @current_h5 = H5.new(line, @current_section)
         @current_h3.add_h5(@current_h5)
       else
         @current_section.add_text(line) unless @current_section.nil?
@@ -89,6 +87,7 @@ module Parser
 
     def process_toc_h3(line)
       if is_blank(line)
+        @current_h3.add_text(line) if @current_section.nil?
         @current_section.add_text(line) unless @current_section.nil?
         return
       end
@@ -97,6 +96,7 @@ module Parser
         @current_h3 = H3.new(line)
         @h2s.last.add_h3(@current_h3)
       else
+        @current_h3.add_text(line) if @current_section.nil?
         @current_section.add_text(line) unless @current_section.nil?
       end
     end

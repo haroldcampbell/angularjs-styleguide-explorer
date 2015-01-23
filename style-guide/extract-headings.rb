@@ -2,16 +2,6 @@ require 'json'
 require './core'
 
 #
-# Utility method for standardizing the toc items that are used as keys
-# def encode_toc(toc)
-#   toc.gsub(" ", "").downcase
-# end
-
-# def is_blank(line)
-#   line.strip.length == 0
-# end
-
-#
 def extract_headings(in_file)
   found_toc = false
   parser = Parser::Parser.new
@@ -38,7 +28,7 @@ end
 puts "Processing '#{ARGV.first}' file."
 table_of_contents_array = extract_headings(ARGV.first)
 
-if (ARGV.length == 1)
+if (ARGV.length == 1 && ARGV == "show_json")
   puts "Showing the first two sections of the guide:"
   trimmed_results = table_of_contents_array[0, 2]
   puts JSON.pretty_generate(trimmed_results)

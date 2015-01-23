@@ -17,6 +17,9 @@
                 '     <p>Click on the link for details.</p>' +
                 '     <section class="preview-section" ng-repeat="toc_h3 in previewSectionModel.toc_h3">' +
                 '         <div class=" title">{{toc_h3.title}}</div>' +
+                '         <div class="note">' +
+                '           <span ng-repeat="text in toc_h3.text track by $index">{{text}}</span>' +
+                '         </div>' +
                 '         <ul>' +
                 '             <li ng-repeat="toc_h5 in toc_h3.toc_h5">' +
                 '                 <div class="style_name">Style: {{toc_h5.style_name}}</div>' +

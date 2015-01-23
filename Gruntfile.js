@@ -42,7 +42,8 @@ module.exports = function (grunt) {
             nonjssite: {
                 files: [
                     {expand: true, src: 'tmp/<%= pkg.name %>.css', dest: 'build/css/', flatten: true},
-                    {expand: true, src: 'index.html', dest: 'build/'}
+                    {expand: true, src: 'index.html', dest: 'build/'},
+                    {expand: true, src: 'style-guide/output.json', dest: 'build/'}
                 ]
             }
         },

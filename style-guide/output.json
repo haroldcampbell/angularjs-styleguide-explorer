@@ -6,6 +6,7 @@
     "toc_h3": [
       {
         "title": "Rule of 1",
+        "text": null,
         "toc_h5": [
           {
             "style_name": "Y001",
@@ -77,6 +78,7 @@
     "toc_h3": [
       {
         "title": "JavaScript Closures",
+        "text": null,
         "toc_h5": [
           {
             "style_name": "Y010",
@@ -156,6 +158,7 @@
     "toc_h3": [
       {
         "title": "Avoid Naming Collisions",
+        "text": null,
         "toc_h5": [
           {
             "style_name": "Y020",
@@ -176,6 +179,7 @@
       },
       {
         "title": "Definitions (aka Setters)",
+        "text": null,
         "toc_h5": [
           {
             "style_name": "Y021",
@@ -217,6 +221,7 @@
       },
       {
         "title": "Getters",
+        "text": null,
         "toc_h5": [
           {
             "style_name": "Y022",
@@ -252,6 +257,7 @@
       },
       {
         "title": "Setting vs Getting",
+        "text": null,
         "toc_h5": [
           {
             "style_name": "Y023",
@@ -273,6 +279,7 @@
       },
       {
         "title": "Named vs Anonymous Functions",
+        "text": null,
         "toc_h5": [
           {
             "style_name": "Y024",
@@ -326,6 +333,7 @@
     "toc_h3": [
       {
         "title": "controllerAs View Syntax",
+        "text": null,
         "toc_h5": [
           {
             "style_name": "Y030",
@@ -360,6 +368,7 @@
       },
       {
         "title": "controllerAs Controller Syntax",
+        "text": null,
         "toc_h5": [
           {
             "style_name": "Y031",
@@ -396,6 +405,7 @@
       },
       {
         "title": "controllerAs with vm",
+        "text": null,
         "toc_h5": [
           {
             "style_name": "Y032",
@@ -456,6 +466,7 @@
       },
       {
         "title": "Bindable Members Up Top",
+        "text": null,
         "toc_h5": [
           {
             "style_name": "Y033",
@@ -555,6 +566,7 @@
       },
       {
         "title": "Function Declarations to Hide Implementation Details",
+        "text": null,
         "toc_h5": [
           {
             "style_name": "Y034",
@@ -637,6 +649,7 @@
       },
       {
         "title": "Defer Controller Logic",
+        "text": null,
         "toc_h5": [
           {
             "style_name": "Y035",
@@ -704,6 +717,7 @@
       },
       {
         "title": "Keep Controllers Focused",
+        "text": null,
         "toc_h5": [
           {
             "style_name": "Y037",
@@ -724,6 +738,7 @@
       },
       {
         "title": "Assigning Controllers",
+        "text": null,
         "toc_h5": [
           {
             "style_name": "Y038",
@@ -798,6 +813,7 @@
     "toc_h3": [
       {
         "title": "Singletons",
+        "text": null,
         "toc_h5": [
           {
             "style_name": "Y040",
@@ -853,6 +869,7 @@
     "toc_h3": [
       {
         "title": "Single Responsibility",
+        "text": null,
         "toc_h5": [
           {
             "style_name": "Y050",
@@ -873,6 +890,7 @@
       },
       {
         "title": "Singletons",
+        "text": null,
         "toc_h5": [
           {
             "style_name": "Y051",
@@ -893,6 +911,7 @@
       },
       {
         "title": "Accessible Members Up Top",
+        "text": null,
         "toc_h5": [
           {
             "style_name": "Y052",
@@ -959,6 +978,7 @@
       },
       {
         "title": "Function Declarations to Hide Implementation Details",
+        "text": null,
         "toc_h5": [
           {
             "style_name": "Y053",
@@ -1071,6 +1091,7 @@
     "toc_h3": [
       {
         "title": "Separate Data Calls",
+        "text": null,
         "toc_h5": [
           {
             "style_name": "Y060",
@@ -1156,6 +1177,7 @@
       },
       {
         "title": "Return a Promise from Data Calls",
+        "text": null,
         "toc_h5": [
           {
             "style_name": "Y061",
@@ -1219,6 +1241,7 @@
     "toc_h3": [
       {
         "title": "Limit 1 Per File",
+        "text": null,
         "toc_h5": [
           {
             "style_name": "Y070",
@@ -1320,6 +1343,7 @@
       },
       {
         "title": "Manipulate DOM in a Directive",
+        "text": null,
         "toc_h5": [
           {
             "style_name": "Y072",
@@ -1340,6 +1364,7 @@
       },
       {
         "title": "Provide a Unique Directive Prefix",
+        "text": null,
         "toc_h5": [
           {
             "style_name": "Y073",
@@ -1360,6 +1385,7 @@
       },
       {
         "title": "Restrict to Elements and Attributes",
+        "text": null,
         "toc_h5": [
           {
             "style_name": "Y074",
@@ -1432,6 +1458,7 @@
       },
       {
         "title": "Directives and ControllerAs",
+        "text": null,
         "toc_h5": [
           {
             "style_name": "Y075",
@@ -1571,6 +1598,7 @@
     "toc_h3": [
       {
         "title": "Controller Activation Promises",
+        "text": null,
         "toc_h5": [
           {
             "style_name": "Y080",
@@ -1626,6 +1654,7 @@
       },
       {
         "title": "Route Resolve Promises",
+        "text": null,
         "toc_h5": [
           {
             "style_name": "Y081",
@@ -1745,6 +1774,7 @@
     "toc_h3": [
       {
         "title": "UnSafe from Minification",
+        "text": null,
         "toc_h5": [
           {
             "style_name": "Y090",
@@ -1780,6 +1810,7 @@
       },
       {
         "title": "Manually Identify Dependencies",
+        "text": null,
         "toc_h5": [
           {
             "style_name": "Y091",
@@ -1863,6 +1894,7 @@
       },
       {
         "title": "Manually Identify Route Resolver Dependencies",
+        "text": null,
         "toc_h5": [
           {
             "style_name": "Y092",
@@ -1909,6 +1941,7 @@
     "toc_h3": [
       {
         "title": "ng-annotate",
+        "text": null,
         "toc_h5": [
           {
             "style_name": "Y100",
@@ -1996,6 +2029,7 @@
       },
       {
         "title": "Use Gulp or Grunt for ng-annotate",
+        "text": null,
         "toc_h5": [
           {
             "style_name": "Y101",
@@ -2044,6 +2078,7 @@
     "toc_h3": [
       {
         "title": "decorators",
+        "text": null,
         "toc_h5": [
           {
             "style_name": "Y110",
@@ -2096,6 +2131,7 @@
       },
       {
         "title": "Exception Catchers",
+        "text": null,
         "toc_h5": [
           {
             "style_name": "Y111",
@@ -2138,6 +2174,7 @@
       },
       {
         "title": "Route Errors",
+        "text": null,
         "toc_h5": [
           {
             "style_name": "Y112",
@@ -2187,6 +2224,7 @@
     "toc_h3": [
       {
         "title": "Naming Guidelines",
+        "text": null,
         "toc_h5": [
           {
             "style_name": "Y120",
@@ -2209,6 +2247,7 @@
       },
       {
         "title": "Feature File Names",
+        "text": null,
         "toc_h5": [
           {
             "style_name": "Y121",
@@ -2286,6 +2325,7 @@
       },
       {
         "title": "Test File Names",
+        "text": null,
         "toc_h5": [
           {
             "style_name": "Y122",
@@ -2315,6 +2355,7 @@
       },
       {
         "title": "Controller Names",
+        "text": null,
         "toc_h5": [
           {
             "style_name": "Y123",
@@ -2347,6 +2388,7 @@
       },
       {
         "title": "Controller Name Suffix",
+        "text": null,
         "toc_h5": [
           {
             "style_name": "Y124",
@@ -2392,6 +2434,7 @@
       },
       {
         "title": "Factory Names",
+        "text": null,
         "toc_h5": [
           {
             "style_name": "Y125",
@@ -2423,6 +2466,7 @@
       },
       {
         "title": "Directive Component Names",
+        "text": null,
         "toc_h5": [
           {
             "style_name": "Y126",
@@ -2456,6 +2500,7 @@
       },
       {
         "title": "Modules",
+        "text": null,
         "toc_h5": [
           {
             "style_name": "Y127",
@@ -2477,6 +2522,7 @@
       },
       {
         "title": "Configuration",
+        "text": null,
         "toc_h5": [
           {
             "style_name": "Y128",
@@ -2498,6 +2544,7 @@
       },
       {
         "title": "Routes",
+        "text": null,
         "toc_h5": [
           {
             "style_name": "Y129",
@@ -2525,6 +2572,7 @@
     "toc_h3": [
       {
         "title": "LIFT",
+        "text": null,
         "toc_h5": [
           {
             "style_name": "Y140",
@@ -2552,6 +2600,7 @@
       },
       {
         "title": "Locate",
+        "text": null,
         "toc_h5": [
           {
             "style_name": "Y141",
@@ -2588,6 +2637,7 @@
       },
       {
         "title": "Identify",
+        "text": null,
         "toc_h5": [
           {
             "style_name": "Y142",
@@ -2608,6 +2658,7 @@
       },
       {
         "title": "Flat",
+        "text": null,
         "toc_h5": [
           {
             "style_name": "Y143",
@@ -2628,6 +2679,7 @@
       },
       {
         "title": "T-DRY (Try to Stick to DRY)",
+        "text": null,
         "toc_h5": [
           {
             "style_name": "Y144",
@@ -2655,6 +2707,7 @@
     "toc_h3": [
       {
         "title": "Overall Guidelines",
+        "text": null,
         "toc_h5": [
           {
             "style_name": "Y150",
@@ -2675,6 +2728,7 @@
       },
       {
         "title": "Layout",
+        "text": null,
         "toc_h5": [
           {
             "style_name": "Y151",
@@ -2695,6 +2749,7 @@
       },
       {
         "title": "Folders-by-Feature Structure",
+        "text": null,
         "toc_h5": [
           {
             "style_name": "Y152",
@@ -2804,6 +2859,7 @@
     "toc_h3": [
       {
         "title": "Many Small, Self Contained Modules",
+        "text": null,
         "toc_h5": [
           {
             "style_name": "Y160",
@@ -2824,6 +2880,7 @@
       },
       {
         "title": "Create an App Module",
+        "text": null,
         "toc_h5": [
           {
             "style_name": "Y161",
@@ -2844,6 +2901,7 @@
       },
       {
         "title": "Keep the App Module Thin",
+        "text": null,
         "toc_h5": [
           {
             "style_name": "Y162",
@@ -2865,6 +2923,7 @@
       },
       {
         "title": "Feature Areas are Modules",
+        "text": null,
         "toc_h5": [
           {
             "style_name": "Y163",
@@ -2887,6 +2946,7 @@
       },
       {
         "title": "Reusable Blocks are Modules",
+        "text": null,
         "toc_h5": [
           {
             "style_name": "Y164",
@@ -2907,6 +2967,7 @@
       },
       {
         "title": "Module Dependencies",
+        "text": null,
         "toc_h5": [
           {
             "style_name": "Y165",
@@ -2945,6 +3006,7 @@
     "toc_h3": [
       {
         "title": "Configuration",
+        "text": null,
         "toc_h5": [
           {
             "style_name": "Y170",
@@ -2988,6 +3050,7 @@
       },
       {
         "title": "Run Blocks",
+        "text": null,
         "toc_h5": [
           {
             "style_name": "Y171",
@@ -3026,6 +3089,7 @@
     "toc_h3": [
       {
         "title": "$document and $window",
+        "text": null,
         "toc_h5": [
           {
             "style_name": "Y180",
@@ -3046,6 +3110,7 @@
       },
       {
         "title": "$timeout and $interval",
+        "text": null,
         "toc_h5": [
           {
             "style_name": "Y181",
@@ -3073,6 +3138,7 @@
     "toc_h3": [
       {
         "title": "Write Tests with Stories",
+        "text": null,
         "toc_h5": [
           {
             "style_name": "Y190",
@@ -3111,6 +3177,7 @@
       },
       {
         "title": "Testing Library",
+        "text": null,
         "toc_h5": [
           {
             "style_name": "Y191",
@@ -3131,6 +3198,7 @@
       },
       {
         "title": "Test Runner",
+        "text": null,
         "toc_h5": [
           {
             "style_name": "Y192",
@@ -3154,6 +3222,7 @@
       },
       {
         "title": "Stubbing and Spying",
+        "text": null,
         "toc_h5": [
           {
             "style_name": "Y193",
@@ -3175,6 +3244,7 @@
       },
       {
         "title": "Headless Browser",
+        "text": null,
         "toc_h5": [
           {
             "style_name": "Y194",
@@ -3195,6 +3265,7 @@
       },
       {
         "title": "Code Analysis",
+        "text": null,
         "toc_h5": [
           {
             "style_name": "Y195",
@@ -3215,6 +3286,7 @@
       },
       {
         "title": "Alleviate Globals for JSHint Rules on Tests",
+        "text": null,
         "toc_h5": [
           {
             "style_name": "Y196",
@@ -3239,6 +3311,7 @@
       },
       {
         "title": "Organizing Tests",
+        "text": null,
         "toc_h5": [
           {
             "style_name": "Y197",
@@ -3279,6 +3352,7 @@
     "toc_h3": [
       {
         "title": "Usage",
+        "text": null,
         "toc_h5": [
           {
             "style_name": "Y210",
@@ -3300,6 +3374,7 @@
       },
       {
         "title": "Sub Second",
+        "text": null,
         "toc_h5": [
           {
             "style_name": "Y211",
@@ -3320,6 +3395,7 @@
       },
       {
         "title": "animate.css",
+        "text": null,
         "toc_h5": [
           {
             "style_name": "Y212",
@@ -3349,6 +3425,7 @@
     "toc_h3": [
       {
         "title": "jsDoc",
+        "text": null,
         "toc_h5": [
           {
             "style_name": "Y220",
@@ -3414,6 +3491,7 @@
     "toc_h3": [
       {
         "title": "Use an Options File",
+        "text": null,
         "toc_h5": [
           {
             "style_name": "Y230",
@@ -3504,6 +3582,7 @@
     "toc_h3": [
       {
         "title": "Vendor Globals",
+        "text": null,
         "toc_h5": [
           {
             "style_name": "Y240",
@@ -3573,6 +3652,7 @@
     "toc_h3": [
       {
         "title": "Sublime Text",
+        "text": null,
         "toc_h5": [
           {
             "style_name": "Y250",
@@ -3602,6 +3682,7 @@
       },
       {
         "title": "Visual Studio",
+        "text": null,
         "toc_h5": [
           {
             "style_name": "Y251",
@@ -3625,6 +3706,7 @@
       },
       {
         "title": "WebStorm",
+        "text": null,
         "toc_h5": [
           {
             "style_name": "Y252",
@@ -3661,6 +3743,7 @@
     "toc_h3": [
       {
         "title": null,
+        "text": null,
         "toc_h5": [
           {
             "style_name": "Y260",
@@ -3707,6 +3790,7 @@
     "toc_h3": [
       {
         "title": null,
+        "text": null,
         "toc_h5": [
           {
             "style_name": "Y270",
@@ -3752,6 +3836,7 @@
     "toc_h3": [
       {
         "title": null,
+        "text": null,
         "toc_h5": [
           {
             "style_name": "Y400",
@@ -3796,6 +3881,11 @@
     "toc_h3": [
       {
         "title": "Process",
+        "text": [
+          "1. Discuss the changes in a GitHub issue. ",
+          "    2. Open a Pull Request against the develop branch, reference the issue, and explain the change and why it adds value.",
+          "    3. The Pull Request will be evaluated and either merged or declined."
+        ],
         "toc_h5": [
 
         ]
@@ -3809,6 +3899,28 @@
     "toc_h3": [
       {
         "title": "(The MIT License)",
+        "text": [
+          "Copyright (c) 2014 [John Papa](http://johnpapa.net)",
+          "",
+          "Permission is hereby granted, free of charge, to any person obtaining",
+          "a copy of this software and associated documentation files (the",
+          "'Software'), to deal in the Software without restriction, including",
+          "without limitation the rights to use, copy, modify, merge, publish,",
+          "distribute, sublicense, and/or sell copies of the Software, and to",
+          "permit persons to whom the Software is furnished to do so, subject to",
+          "the following conditions:",
+          "",
+          "The above copyright notice and this permission notice shall be",
+          "included in all copies or substantial portions of the Software.",
+          "",
+          "THE SOFTWARE IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND,",
+          "EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF",
+          "MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.",
+          "IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY",
+          "CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,",
+          "TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE",
+          "SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+        ],
         "toc_h5": [
 
         ]
