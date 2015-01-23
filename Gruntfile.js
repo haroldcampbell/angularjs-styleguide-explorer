@@ -2,6 +2,10 @@ module.exports = function (grunt) {
 
     grunt.initConfig({
         pkg: grunt.file.readJSON('package.json'),
+        css_assets: [
+            "<link rel=\"stylesheet\" href=\"//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css\">",
+            "<link rel=\"stylesheet\" href=\"css/<%= pkg.name %>.css\">"
+        ],
 
         clean: {
             build: ['build'],
@@ -78,16 +82,22 @@ module.exports = function (grunt) {
             }
         },
 
-        /**
-         * Replace version number in the index.html file with the one in the package.json
-         */
         replace: {
+            /** Replace version number in the index.html file with the one in the package.json */
             version: {
                 src: ['index.html'],
                 overwrite: true,                 // overwrite matched source files
                 replacements: [{
                     from: /<div class="version">[0-9]\.[0-9]\.[0-9](-[0-9])?<\/div>/g,
                     to: "<div class=\"version\"><%= pkg.version %></div>"
+                }]
+            },
+            styles: {
+                src: ['build/index.html'],
+                overwrite: true,                 // overwrite matched source files
+                replacements: [{
+                    from: /<!--\[\[css-->[\S\s<>\.="]*<!--css]]-->/g,
+                    to: "<%= css_assets.join(\"\\n\") %>"
                 }]
             }
         },
